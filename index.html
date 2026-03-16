@@ -72,14 +72,6 @@
         <i data-feather="trash-2" class="remove-item"></i>
        </div>
     </div>
-    <div class="cart-item">
-       <img src="img/products/lilin.png" alt="product">
-       <div class="item-detail">
-        <h3>Product 1</h3>
-        <div class="item-price">IDR 15k</div>
-        <i data-feather="trash-2" class="remove-item"></i>
-       </div>
-    </div>
 </div>
  
  <!-- shooping cart end-->
@@ -154,7 +146,7 @@
             <div class="product-card">
                 <div class="product-icons">
                     <a href="#"><i data-feather="shopping-cart"></i></a>
-                    <a href="#"><i data-feather="eye"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
                 </div>
                 <div class="product-image">
                     <img src="img/products/lilin.png" alt="product">
@@ -174,7 +166,7 @@
             <div class="product-card">
                 <div class="product-icons">
                     <a href="#"><i data-feather="shopping-cart"></i></a>
-                    <a href="#"><i data-feather="eye"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
                 </div>
                 <div class="product-image">
                     <img src="img/products/lilin.png" alt="product">
@@ -194,7 +186,7 @@
             <div class="product-card">
                 <div class="product-icons">
                     <a href="#"><i data-feather="shopping-cart"></i></a>
-                    <a href="#"><i data-feather="eye"></i></a>
+                    <a href="#" class=item-detail-button><i data-feather="eye"></i></a>
                 </div>
                 <div class="product-image">
                     <img src="img/products/lilin.png" alt="product">
@@ -214,7 +206,7 @@
             <div class="product-card">
                 <div class="product-icons">
                     <a href="#"><i data-feather="shopping-cart"></i></a>
-                    <a href="#"><i data-feather="eye"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
                 </div>
                 <div class="product-image">
                     <img src="img/products/lilin.png" alt="product">
@@ -282,7 +274,30 @@
         </div>
     </footer>
     <!--Footer End-->
-
+<!--Modal Box Item start-->
+<div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+        <img src="img/products/lilin.png" alt="product 1">
+        <div class="product-content">
+            <h3>product 1</h3>
+            <p> lilin aroma theraphy adalah inovasi kami yang melibatkan warga lokal dalam pembuatan nya </p>
+            <div class="product-stars">
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                 </div>  
+                 <div class="product-price"> IDR 15k <span> IDR 30k </span></div>
+                 <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+                </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!--Modal Box Item end-->
     <!--feather icon-->
     <script>
       feather.replace()
